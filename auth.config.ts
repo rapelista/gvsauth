@@ -5,4 +5,7 @@ import type { NextAuthConfig } from "next-auth";
 export const authConfig = {
     providers: [GitHub, Google],
     trustHost: true,
+    pages: {
+        signIn: "/login",
+    },
 } satisfies NextAuthConfig;
