@@ -1,0 +1,26 @@
+{
+    "scripts": {
+        "dev": "next dev",
+        "build": "prisma generate && next build",
+        "start": "next start",
+        "lint": "next lint"
+    },
+    "dependencies": {
+        "@auth/prisma-adapter": "^2.4.1",
+        "@prisma/client": "^5.16.0",
+        "next": "^14.2.4",
+        "next-auth": "^5.0.0-beta.19",
+        "react": "^18.3.1",
+        "react-dom": "^18.3.1",
+        "sharp": "^0.33.4"
+    },
+    "devDependencies": {
+        "@types/node": "^20.14.8",
+        "@types/react": "18.3.3",
+        "eslint": "8.57.0",
+        "eslint-config-next": "14.2.4",
+        "prisma": "^5.16.0",
+        "ts-node": "^10.9.2",
+        "typescript": "^5.5.2"
+    }
+}
